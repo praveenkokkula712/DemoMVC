@@ -10,6 +10,7 @@ import Foundation
 
 let urlString = "https://jsonplaceholder.typicode.com/posts"
 
+//Develop method comments included.
 class APIService {
     
     private init() {    }
