@@ -29,10 +29,8 @@ class APIService {
            
             guard error == nil  else { return }
             
-            if (response as? HTTPURLResponse)?.statusCode == 200 {
-                if let _data = data {
+            if (response as? HTTPURLResponse)?.statusCode == 200, let _data = data  {
                     completionHandler(_data)
-                }
             }
         }
         
