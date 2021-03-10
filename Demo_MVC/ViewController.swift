@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.setupTableView()
         self.callAPI()
-        
     }
 
     private func setupTableView() {
@@ -37,7 +36,6 @@ class ViewController: UIViewController {
                 self.tableView?.reloadData()
             }
         }
-        
     }
     
 }
